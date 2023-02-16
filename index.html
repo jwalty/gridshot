@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jwalty.dev - 2D Gridshot</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="main.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+</head>
+<body>
+    <div id="gameOver">
+        <label>Score: </label>
+        <span id="lastScore">0</span>
+        <label>Accuracy: </label>
+        <span id="lastAccuracy">0%</span>
+        <button onclick="playAgain()">play again?</button>
+    </div>
+
+    <div id="stats">
+        <span id="score">0</span>
+        <span id="time">15s</span>
+        <span id="accuracy">0%</span>
+    </div>
+
+    <table draggable=false id="gridshotContainer"></table>
+
+</body>
+</html>
